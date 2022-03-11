@@ -53,6 +53,7 @@ const [searchTerm, setSearchTerm] = useState('');
   <div>
     
     <header>
+    <div className="main-header"><h1>Movies</h1></div>
        <form onSubmit={handleOnSubmit}>
          <input 
            classname="search"
